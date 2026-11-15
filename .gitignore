@@ -1,0 +1,26 @@
+# This public repo holds documentation + release metadata ONLY.
+# Never commit installers, binaries, source code, or secrets here.
+
+# Release binaries are published as GitHub Release assets, NOT committed to Git history.
+*.exe
+*.msi
+*.zip
+*.nupkg
+*.pem
+*.key
+
+# Secrets / credentials / customer data must never appear in this repo.
+.env
+.env.*
+secrets/
+*.private.*
+accounts.json
+*_accounts.json
+licensing_db.json
+cookies*.json
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+node_modules/

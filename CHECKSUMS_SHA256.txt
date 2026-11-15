@@ -1,0 +1,13 @@
+# SHA-256 fingerprints — OmniFlow Studio v1.3.0
+#
+# NOTE: these are the CURRENT pre-release (RC) build fingerprints. The installer still
+# points at a local placeholder licensing URL and is NOT for customer distribution.
+# The final approved installer will be rebuilt against the live licensing service and
+# its checksums regenerated here before the public release. Do not distribute this build.
+#
+# Verify a downloaded file with:
+#   PowerShell:  Get-FileHash <file> -Algorithm SHA256
+#   Git Bash:    sha256sum <file>
+
+dc73cb546143e8223b42a339d0e64a6d5ec5f54451f01d747c81cb461076aacf  OmniFlow_Setup_v1.3.0.exe   (84339716 bytes, RC build)
+23f0c772da728557e38281eabbee421be1c1aebed672f21884b188b13f71de36  OmniFlow.Customer.msi       (84607836 bytes, RC build)
